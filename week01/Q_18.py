@@ -1,6 +1,5 @@
 a = input().split(" ")
-for i in a :
-    if i == "" :
-        a.remove("")
+while "" in a :
+    a.remove("")
 
 print(len(a)) 
